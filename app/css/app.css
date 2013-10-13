@@ -23,7 +23,7 @@ h4{
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.313em;
   text-align: center;
   margin-bottom: 12px;
   margin-top: 12px;
@@ -78,18 +78,18 @@ h6 {
 
 /*HOME PAGE*/
 .home-body {
-  padding-top: 15px;
+  padding-top: 50px;
 }
 .home-body img {
   border: 4px solid rgba(0,0,0,.5);
 }
 .home-intro {
-  font-size: .875em;
+  font-size: .938em;
   line-height: 22px;
 }
 
 .home-info {
-  font-size: .875em;
+  font-size: .938em;
   line-height: 18px;
 }
 
@@ -165,19 +165,16 @@ h6 {
   color: #5C5C58;
   display: block;
 }
-/*.navbar li:hover, a:hover {
-  text-decoration: underline;
-}*/
-/*nav bar drop down*/
+/*sub nav bar*/
 
-.sub-nav-about li{
+/*.sub-nav-about li{
   display: inline;
   padding-right: 50px;
   text-align: center;
   list-style: none;
   font-family: "minion-pro", Palatino, Georgia, serif; 
   /*background-color: #366b82;*/
-  text-transform: uppercase;
+/*  text-transform: uppercase;
   font-size: .938em;
 }
 
@@ -195,7 +192,7 @@ h6 {
 
 .sub-nav-about {
   margin-top:35px;
-}
+}*/
 
 
 
