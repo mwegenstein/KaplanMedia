@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
 
 body{
   background-color:#fdfdfd;
@@ -16,7 +22,8 @@ h3 {
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 12px;
-  margin-top: 25px;
+  margin-top: 20px;
+  font-style: italic;
 }
 
 h4{
@@ -41,18 +48,32 @@ h6 {
 }
 
 /*UNIVERSAL STYLE*/
+
+.break-right {
+  border-right: 1px solid #D4D4D4;
+}
+
+.break-left {
+  border-left: 1px solid #D4D4D4;
+}
+
+.border-margin {
+  margin-top: 8px;
+}
+.border-break{
+  border-left: 1px solid #D4D4D4;
+}
 .title {
   font-family:"cronos-pro", helvetica, sans-serif; 
   color: #5C5C58;
   font-weight: bold;
   font-size: 1.125em;
+  font-style: italic;
 }
 .title-pad {
     margin-top: 80px;
 }
 #swirl-image{
-/* background-image:url('../img/swirl.png');*/
-  height: 600px;
   display: block;
   background-color: #fdfdfd;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(50%, #FFF)),url('../img/white_wave.png');
@@ -100,12 +121,7 @@ h6 {
 }
 
 /*Footer*/
-* {
-  margin: 0;
-}
-html, body {
-  height: 100%;
-}
+
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
@@ -137,10 +153,6 @@ html, body {
   font-size:.938em;
   text-align:center;
   padding-top: 1.25em;
-}
-
-.border-break{
-  border-left: 1px solid #D4D4D4;
 }
 
 .slanted {
