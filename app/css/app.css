@@ -10,12 +10,12 @@ body{
 }
 
 p{
-  font-family:"minion-pro", Palatino, Georgia, serif;
+  font-family:"cronos-pro", helvetica, sans-serif;
   color: #5C5C58;
 }
 
 h3 {
-  font-family:"cronos-pro", helvetica, sans-serif; 
+  font-family:"minion-pro", Palatino, Georgia, serif; 
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
@@ -26,28 +26,32 @@ h3 {
 }
 
 h4{
-  font-family:"cronos-pro", helvetica, sans-serif; 
+  font-family:"minion-pro", Palatino, Georgia, serif; 
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.313em;
   text-align: center;
   margin-bottom: 8px;
-  margin-top: 8px;
+  margin-top: 23px;
 }
 
 h6 {
   font-size: 1.250em;
-  font-family:"cronos-pro", helvetica, sans-serif; 
+  font-family:"minion-pro", Palatino, Georgia, serif; 
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 12px;
+  margin-top: 15px
 }
 
 /*UNIVERSAL STYLE*/
-
+.bio-border {
+  border-left: 1px solid #D4D4D4;
+  border-right: 1px solid #D4D4D4;
+}
 .break-right {
   border-right: 2px dotted #D4D4D4;
 }
@@ -118,6 +122,7 @@ h6 {
 .home-info {
   font-size: .938em;
   line-height: 18px;
+  margin-top: 15px;
 }
 
 .line-seperator {
@@ -160,9 +165,6 @@ h6 {
   padding-top: 1.25em;
 }
 
-.slanted {
-  font-style: italic;
-}
 .number{
   font-family:"minion-pro", Palatino, Georgia, serif;
   color: #5C5C58;
@@ -206,6 +208,9 @@ h6 {
   text-decoration: none;
   color: #5C5C58;
   display: block;
+}
+.slanted {
+  font-style: italic;
 }
 /*sub nav bar*/
 
