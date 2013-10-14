@@ -1,3 +1,4 @@
+
 body{
   background-color:#fdfdfd;
 }
@@ -96,6 +97,30 @@ h6 {
 .line-seperator {
   border-top: 1px solid #D4D4D4;
   padding-top: 3px;
+}
+
+/*Footer*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 142px; 
+}
+.site-footer {
+  background: orange;
 }
 
 /*AWARDS AND RECOGNITION*/
@@ -223,13 +248,6 @@ h6 {
   font-weight: bold;
 }*/
 
-/*footer*/
-.kaplanfooter {
-  background-color: #E8E6E2;
-  border-top: 1px solid #DAD7D1;
-  clear: both;
-  overflow: hidden;
-}
 
 
 
