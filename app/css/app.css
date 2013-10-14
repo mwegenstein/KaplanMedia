@@ -146,7 +146,7 @@ h6 {
 
 /*AWARDS AND RECOGNITION*/
 
-#awards-list li {
+.awards-list li {
   list-style-type: none;
   font-family:"minion-pro", Palatino, Georgia, serif;
   color: #5C5C58;
