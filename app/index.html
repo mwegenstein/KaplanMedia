@@ -13,6 +13,7 @@
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <script src="js/vendor/custom.modernizr.js"></script>
   <script type="text/javascript" src="//use.typekit.net/mek5zmk.js"></script>
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/5022a8da-8057-4ef3-9f95-ca6bc84c9341.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 </head>
@@ -38,10 +39,48 @@
     </div>
     <div id="swirl-image">
       <div class="row home-body">
-        <div class="large-6 small-5 columns">
-          <img src="img/homepage3.jpg" alt="Kaplan in the studio">
+        <div class="small-6 columns">
+          <div class="slideshow-wrapper">
+            <div class="pre-loader">
+              <ul data-orbit>
+                <li>
+                  <img src="img/homepage3.jpg" alt="Kaplan in the studio">
+                  <!-- <div class="orbit-caption">
+                    <p>here is a dummy caption if wanted</p>
+                </div> -->
+                </li>
+                  <li>
+                  <img src="img/rickone.jpg" alt="Kaplan">
+                </li>
+                <li>
+                  <img src="img/ricktwo.jpg" alt="Kaplan in the studio">
+                </li>
+                <li>
+                  <img src="img/rickthree.jpg" alt="Kaplan in the studio">
+                </li>
+                <li>
+                  <img src="img/rickfour.jpg" alt="Kaplan in the studio">
+                </li>
+                <li>
+                  <img src="img/rickfive.jpg" alt="Kaplan in the studio">
+                </li>
+                <li>
+                  <img src="img/ricksix.jpg" alt="Kaplan in the studio">
+                </li>
+                <li>
+                  <img src="img/rickseven.jpg" alt="Kaplan in the studio">
+                </li>
+                <li>
+                  <img src="img/rickeight.jpg" alt="Kaplan in the studio">
+                </li>
+                <li>
+                  <img src="img/ricknine.jpg" alt="Kaplan in the studio">
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="large-6 small-7 columns">
+        <div class="small-6 columns">
           <p class="home-intro"><span class="title">KAPLAN MEDIA PARTNERS</span> 
             was founded by Rick Kaplan in August of 2012, with a mission to provide the knowledge and experience to produce quality news programming and documentaries as a network consultant. Kaplan uses his 40 years of experience in TV news production and reporting to deliver media training, crisis management and one-on-one strategy sessions to firms who are looking to increase their influence through groundbreaking conferences and intra-corporate communications. Kaplan also works with corporations to develop strong media strategies by helping to create a more efficient company on both an internal and external level. </p>
             <p class="home-intro">Kaplan’s current clients include Aaron Sorkin and The Newsroom. He’s also consulting on a documentary about President George Bush Sr, called “41 on 41.” Kaplan looks forward to expanding his clientele, by working with new TV shows, documentaries, social media firms, attending speaking engagements, and working with any company looking to improve their internal workflow or in need of Kaplan's TV news expertise.</p>
@@ -182,10 +221,22 @@
     <footer class="site-footer">
     This is the footer - contact info - socialfeeds - another link to contact
   </footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/foundation/foundation.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
-    $(document).foundation();
+  document.write('<script src=js/vendor/'
+    + ('__proto__' in {} ? 'zepto' : 'jquery')
+    + '.js><\/script>');
+</script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.orbit.js"></script>
+  <script>
+    $(document).foundation('orbit', {
+      animation: 'fade',
+      timer_speed: 7000,
+      resume_on_mouseout: true,
+      navigation_arrows: false,
+      slide_number: false
+    });
   </script>
 </body>
 </html>

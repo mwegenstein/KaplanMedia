@@ -10,12 +10,13 @@ body{
 }
 
 p{
-  font-family:"cronos-pro", helvetica, sans-serif;
+  font-family:"minion-pro", Palatino, Georgia, serif;
   color: #5C5C58;
 }
 
 h3 {
-  font-family:"minion-pro", Palatino, Georgia, serif; 
+  /*font-family:"minion-pro", Palatino, Georgia, serif;*/ 
+  font-family:'ImprintW01-ShadowRegula';
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
@@ -26,7 +27,8 @@ h3 {
 }
 
 h4{
-  font-family:"minion-pro", Palatino, Georgia, serif; 
+  /*font-family:"minion-pro", Palatino, Georgia, serif;*/ 
+  font-family: 'ImprintW01-ShadowRegula';
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
@@ -38,7 +40,8 @@ h4{
 
 h6 {
   font-size: 1.250em;
-  font-family:"minion-pro", Palatino, Georgia, serif; 
+ /* font-family:"minion-pro", Palatino, Georgia, serif; */
+ font-family: 'ImprintW01-ShadowRegula';
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
@@ -74,7 +77,7 @@ h6 {
   padding-left: 15px;
 }
 .title {
-  font-family:"cronos-pro", helvetica, sans-serif; 
+  font-family:"minion-pro", Palatino, Georgia, serif; 
   color: #5C5C58;
   font-weight: bold;
   font-size: 1.125em;
