@@ -6,17 +6,17 @@ html, body {
 }
 
 body{
-  background-color:#fdfdfd;
+  background-color: #fdfdfd;
 }
 
 p{
-  font-family:"minion-pro", Palatino, Georgia, serif;
+  font-family: "Nimbus Sans", sans-serif;
   color: #5C5C58;
 }
 
 h3 {
   /*font-family:"minion-pro", Palatino, Georgia, serif;*/ 
-  font-family:'ImprintW01-ShadowRegula';
+  font-family: "Acta Display", Palatino, Georgia, serif;
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
@@ -28,20 +28,20 @@ h3 {
 
 h4{
   /*font-family:"minion-pro", Palatino, Georgia, serif;*/ 
-  font-family: 'ImprintW01-ShadowRegula';
+  font-family: "Acta Display", Palatino, Georgia, serif;
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.313em;
   text-align: center;
   margin-bottom: 8px;
-  margin-top: 23px;
+  margin-top: 30px;
 }
 
 h6 {
   font-size: 1.250em;
  /* font-family:"minion-pro", Palatino, Georgia, serif; */
- font-family: 'ImprintW01-ShadowRegula';
+ font-family: "Acta Display", Palatino, Georgia, serif;
   color: #5C5C58;
   font-weight: bold;
   text-transform: uppercase;
@@ -77,7 +77,7 @@ h6 {
   padding-left: 15px;
 }
 .title {
-  font-family:"minion-pro", Palatino, Georgia, serif; 
+  font-family: "Nimbus Sans", sans-serif
   color: #5C5C58;
   font-weight: bold;
   font-size: 1.125em;
@@ -124,7 +124,7 @@ h6 {
 
 .home-info {
   font-size: .938em;
-  line-height: 18px;
+  line-height: 19px;
   margin-top: 15px;
 }
 
@@ -156,12 +156,12 @@ h6 {
 
 .awards-list li {
   list-style-type: none;
-  font-family:"minion-pro", Palatino, Georgia, serif;
+  font-family:"Acta Display", Palatino, Georgia, serif;
   color: #5C5C58;
   font-size:.938em
 }
 .award-text {
-  font-family:"minion-pro", Palatino, Georgia, serif;
+  font-family:"Acta Display", Palatino, Georgia, serif;
   color: #5C5C58;
   font-size:.938em;
   text-align:center;
@@ -169,7 +169,7 @@ h6 {
 }
 
 .number{
-  font-family:"minion-pro", Palatino, Georgia, serif;
+  font-family:"Acta Display", Palatino, Georgia, serif;
   color: #5C5C58;
   font-weight: bold;
   font-size:1.063em 
@@ -202,7 +202,7 @@ h6 {
   float: right;
   text-align: center;
   list-style: none;
-  font-family: "minion-pro", Palatino, Georgia, serif; 
+  font-family: "Acta Display", Palatino, Georgia, serif; 
   /*background-color: #366b82;*/
   text-transform: uppercase;
   font-size: .938em;
@@ -286,7 +286,7 @@ h6 {
   width: 100%;
   margin: 0;
   overflow: hidden;
-  background-image: url(../img/homepage-update.gif);
+  background-image: url(../img/homepage-update1.gif);
  /* opacity:0.9;
   filter:alpha(opacity=90); /* For IE8 and earlier */*/
   -moz-background-size: cover;
@@ -328,10 +328,43 @@ h6 {
 #nav-homepage{
   height:50px;
   position: relative;
-  width: 88%;
+  width: 100%;
   margin-bottom: 10px;
+  right: 255px;
 }
 
+.client-image-container {
+  max-width: 50%;
+  position: relative;
+  height: 65px;
+  margin-bottom: 15px;
+}
 
+.client-title {
+  margin-top: 0px;
+  font-size: 1.875em;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.client-text {
+  font-size: .875em;
+  max-width: 270px;
+}
+
+.client-container{
+  max-width: 440px;
+}
+
+.orbit-style {
+  margin-bottom: 4px;
+  margin-left: 4px;
+  width: auto;
+}
+
+.orbit-style p {
+  color: #FFFFF0;
+  font-size: 0.875em;
+}
 
 
