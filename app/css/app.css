@@ -147,9 +147,11 @@ h6 {
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
   height: 142px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .site-footer {
-  background: orange;
+  background: #5C5C58;
 }
 
 /*AWARDS AND RECOGNITION*/
@@ -158,7 +160,8 @@ h6 {
   list-style-type: none;
   font-family:"Acta Display", Palatino, Georgia, serif;
   color: #5C5C58;
-  font-size:.938em
+  font-size:.938em;
+  font-weight: bold;
 }
 .award-text {
   font-family:"Acta Display", Palatino, Georgia, serif;
@@ -166,6 +169,7 @@ h6 {
   font-size:.938em;
   text-align:center;
   padding-top: 1.25em;
+  font-weight: bold;
 }
 
 .number{
@@ -181,7 +185,8 @@ h6 {
   z-index: 100;
 }
 
-#nav-wrap{
+
+.nav-wrap{
   width: 100%;
   height:50px;
   position: relative;
@@ -220,63 +225,46 @@ h6 {
   color:#fff;
   font-size: 1.063em;
 }
-/*sub nav bar*/
 
-/*.sub-nav-about li{
-  display: inline;
-  padding-right: 50px;
-  text-align: center;
+.footer-nav-wrap{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #FFFFF0;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+} 
+
+.footer-nav li {
   list-style: none;
-  font-family: "minion-pro", Palatino, Georgia, serif; 
-  /*background-color: #366b82;*/
-/*  text-transform: uppercase;
+  font-family: "Acta Display", Palatino, Georgia, serif; 
+  text-transform: uppercase;
   font-size: .938em;
 }
 
-.sub-nav-about li a {
-  color: #5C5C58;
-}
-
-.sub-nav-about li:hover a:hover {
-  color: #9D0300
-}
-
-.sub-nav-about:first-child {
-  padding-left: 30px;
-}
-
-.sub-nav-about {
-  margin-top:35px;
-}*/
-
-
-
-/*.navbar li ul   {
-  display: none;
-  margin: 0;
-  padding: 0; 
-  position: absolute;
-  background-color: rgba(255,255,255,.9);
-  float: right;
-  z-index: 100;
-  width: 110px;
-  }
-
-.navbar li:hover ul{
-  display: block;
-}
-
-.navbar li ul li{
+.footer-text {
+  color: #FFFFF0;
+  font-family: "Nimbus Sans", sans-serif;
   font-size: .688em;
+  margin-top: 100px;
+  text-align: right;
 }
 
-.navbar li ul li a:hover  {
-  background-color:rgba(0,0,0,0.5);
+.footer-text a {
+  color: #262626;
+  text-decoration: underline;
 }
 
-.left-seperate{
-  font-weight: bold;
-}*/
+.footer-text a:hover {
+  
+  color: #FFFFF0;;
+}
+
 
 /*Home-page*/
 #image-page-wrap{
@@ -365,6 +353,20 @@ h6 {
 .orbit-style p {
   color: #FFFFF0;
   font-size: 0.875em;
+}
+
+.contact-button {
+  background-color:#5C5C58;
+  border-color: #40403E;
+}
+
+.contact-button:hover {
+  background-color: #AEAEAC;
+}
+
+.contact-heading {
+  font-weight: bold;
+  margin-top: 50px
 }
 
 
