@@ -287,13 +287,18 @@ h6 {
 
 #module {
   width: 600px;
-  height:300px;
+  height:325px;
   position: absolute;
   top: 28%;
   left:5%;
-  min-height: 300px;
+  min-height: 325px;
   cursor: pointer;
   background-color: rgba(0, 0, 0, .9);
+}
+
+.white-strip{
+  background-color: rgba(255, 255, 255, .7);
+  max-height: 60px;
 }
 
 .module-padding{
@@ -303,6 +308,7 @@ h6 {
 .index-text {
   color: #fff;
   font-size: 1.063em;
+  margin-bottom: 10px;
 }
 
 .title-homepage {
@@ -366,7 +372,10 @@ h6 {
 
 .contact-heading {
   font-weight: bold;
-  margin-top: 50px
+  margin-top: 50px;
 }
 
+.index-image-pad {
+  padding-top: 9px;
+}
 
