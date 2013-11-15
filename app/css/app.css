@@ -115,7 +115,7 @@ h6 {
   padding-top: 50px;
 }
 .home-body img {
-  border: 4px solid rgba(0,0,0,.5);
+  border: 4px solid rgba(0, 0, 0, 0.6);
 }
 .home-intro {
   font-size: .938em;
@@ -203,7 +203,7 @@ h6 {
 }
 .navbar li{
   height: auto;
-  width: 110px;
+  width: 115px;
   float: right;
   text-align: center;
   list-style: none;
@@ -222,8 +222,8 @@ h6 {
 }
 
 .white a {
-  color:#fff;
-  font-size: 1.063em;
+  color: rgb(231, 222, 198);
+  font-size: 1.250em;
 }
 
 .footer-nav-wrap{
@@ -286,47 +286,58 @@ h6 {
 }
 
 #module {
-  width: 600px;
-  height:325px;
+  width: 800px;
+  height: 540px;
   position: absolute;
-  top: 28%;
-  left:5%;
+  top: 10%;
+  left: 5%;
   min-height: 325px;
   cursor: pointer;
   background-color: rgba(0, 0, 0, .9);
+  padding: 20px;
 }
 
-.white-strip{
-  background-color: rgba(255, 255, 255, .7);
+.white-strip {
+  background-color: rgba(231, 222, 198, .7);
   max-height: 60px;
+  position: relative;
+  top: 237px;
 }
 
-.module-padding{
+.module-padding {
   padding:20px;
 }
 
 .index-text {
-  color: #fff;
-  font-size: 1.063em;
+  color: rgb(231, 222, 198);
+  font-size: 1.188em;
   margin-bottom: 10px;
+  top: 201px;
+  position: relative;
+  line-height: 35px;
 }
 
 .title-homepage {
-  color:#fff;
+  color: rgb(231, 222, 198);
   text-transform: uppercase;
+  font-style: italic;
 }
 
 .index-left img {
   position: relative;
 }
 #nav-homepage{
-  height:50px;
-  position: relative;
+  height: 50px;
+  position: absolute;
   width: 100%;
   margin-bottom: 10px;
-  right: 255px;
+  right: 0px;
+  top: 119px;
 }
 
+#nav-homepage .navbar li {
+  width: 130px;
+}
 .client-image-container {
   max-width: 50%;
   position: relative;
@@ -350,24 +361,10 @@ h6 {
   max-width: 440px;
 }
 
-.orbit-style {
-  margin-bottom: 4px;
-  margin-left: 4px;
-  width: auto;
-}
-
 .orbit-style p {
   color: #FFFFF0;
   font-size: 0.875em;
-}
-
-.contact-button {
-  background-color:#5C5C58;
-  border-color: #40403E;
-}
-
-.contact-button:hover {
-  background-color: #AEAEAC;
+  margin-bottom: 0px;
 }
 
 .contact-heading {
@@ -375,7 +372,24 @@ h6 {
   margin-top: 50px;
 }
 
-.index-image-pad {
-  padding-top: 9px;
+#msnbc {
+  padding-top: 10px
 }
 
+#hbo {
+  padding-top: 9px;
+}
+#msg {
+  padding-top: 17px;
+}
+
+#module-logo {
+  width: 400px;
+  height: 173px;
+  position: absolute;
+  top:-12px;
+  left: -30px;
+}
+.index-nav {
+  position: relative;
+}

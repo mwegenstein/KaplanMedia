@@ -1335,11 +1335,11 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #5C5C58;;
+  border-color: #40403E;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2284a1; }
+    background-color: #AEAEAC; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -3261,7 +3261,7 @@ label.error {
         color: white;
         width: 100%;
         padding: 10px 14px;
-        font-size: 0.875em; }
+        font-size: 0.875em;}
   .orbit-container .orbit-slide-number {
     position: absolute;
     top: 10px;
