@@ -110,6 +110,9 @@ h6 {
   padding-top: 17.5px;
 }
 
+.orbit-timer {
+  display: none;
+}
 /*HOME PAGE*/
 .home-body {
   padding-top: 50px;
@@ -138,7 +141,7 @@ h6 {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px; 
+  margin-bottom: -109px; 
 }
 .page-wrap:after {
   content: "";
@@ -146,7 +149,7 @@ h6 {
 }
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
-  height: 142px; 
+  height: 110px; 
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -227,7 +230,7 @@ h6 {
 }
 
 .footer-nav-wrap{
-  margin-top: 25px;
+  margin-top: 48px;
   margin-bottom: 20px;
 }
 
@@ -245,13 +248,19 @@ h6 {
   font-family: "Acta Display", Palatino, Georgia, serif; 
   text-transform: uppercase;
   font-size: .938em;
+  display: inline;
+  margin: 13px;
+}
+
+.footer-nav li:first-child {
+  margin-left: 0px;
 }
 
 .footer-text {
   color: #FFFFF0;
   font-family: "Nimbus Sans", sans-serif;
   font-size: .688em;
-  margin-top: 100px;
+  margin-top: 56px;
   text-align: right;
 }
 
@@ -264,7 +273,6 @@ h6 {
   
   color: #FFFFF0;;
 }
-
 
 /*Home-page*/
 #image-page-wrap{
@@ -350,6 +358,7 @@ h6 {
   font-size: 1.875em;
   padding-top: 30px;
   text-align: left;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .client-text {
@@ -383,6 +392,10 @@ h6 {
   padding-top: 17px;
 }
 
+#nbc {
+  margin: -3px;
+}
+
 #module-logo {
   width: 400px;
   height: 173px;
@@ -393,3 +406,47 @@ h6 {
 .index-nav {
   position: relative;
 }
+
+/*BIO*/
+.katie-couric a {
+ color: #5C5C58;
+ font-weight: bold;
+}
+
+.katie-couric a:hover {
+ color: #5C5C58;
+ text-decoration: underline;
+}
+
+#about-hbo {
+  padding-top: 54px;
+}
+
+#about-abc {
+  padding-top: 34px;
+}
+
+#about-msnbc {
+  padding-top: 10px;
+}
+
+#about-cnn {
+  padding-top: 20px;
+}
+
+#about-world {
+  padding-top: 50px;
+}
+
+#nightline {
+  padding-top: 38px;
+}
+
+.video-center {
+  margin-top: 10px;
+}
+
+.video-center-abc {
+  margin-top: 5px;
+}
+
