@@ -2,7 +2,7 @@
 
 /* Settings
 ---------------------*/
-$email_to = 'mwegenstein@gmail.com'; // Email addresses to send data. Seperate email addresses with ','
+$email_to = 'rick@rnkpartners.com'; // Email addresses to send data. Seperate email addresses with ','
 $site_title = 'Kaplan Media Partners'; // Your website title
 $webmaster_name = "Rick Kaplan"; // Your name
 
